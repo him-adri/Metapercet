@@ -1,0 +1,27 @@
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    padding: 2rem;
+}
+.grid-box{
+    height: 30%;
+    border: 1px solid black;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+
+    padding: 0.7rem;
+}
+.class-image{
+    margin-bottom: 1rem;
+}
+.class-name{
+    margin-bottom: 1rem;
+}
+.class-desc{
+    margin-bottom: 1rem;
+}
+.btn{
+    border: 1px solid green;
+}
